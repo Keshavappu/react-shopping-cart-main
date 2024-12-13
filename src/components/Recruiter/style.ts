@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro';
-import flag from './nl-flag.png';
+
 
 export const Container = styled.div`
   box-sizing: border-box;
@@ -38,16 +38,7 @@ export const Thumbnail = styled.div`
   }
 `;
 
-export const Flag = styled.span`
-  display: inline-block;
-  background-image: url(${flag});
-  width: 12px;
-  height: 12px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  margin-left: 4px;
-`;
+
 
 export const Description = styled.div`
   padding: 10px 10px 0 0px;
